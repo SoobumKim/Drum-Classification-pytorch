@@ -7,3 +7,14 @@
 We introduce data set of instrumental sample sounds of standard real drum.  Our target classes are bass drum (B), snare drum (S), closed hi-hat (CH), open hi-hat (OH), ride cymbal (R), floor tom (FT) and mid tom (MT). Additionally, we reserve more classes combined sound when beat simultaneously two or more instrument like bass drum and closed hi-hat (B+CH), bass drum and open hi-hat (B+OH), bass drum and ride cymbal (B+R), bass drum and floor tom (B+FT), bass drum and crash cymbal (B+C), snare and bass drum (S+B), snare drum and closed hi-hat (S+CH), snare drum and open hi-hat (S+OH), snare drum and ride cymbal (S+R), snare drum and floor tom (S+FT), snare drum and crash cymbal (S+C), mid and floor tom (MT+FT), snare and bass drum and closed hi-hat (S+B+CH), snare and bass drum and open hi-hat (S+B+OH), snare and bass drum and ride cymbal (S+B+R). There are total of 23 classes including ‘Rest’ when drums don’t onset. 
 
 ## Download Drum Samples Dataset
+You can download dataset from https://sites.google.com/d/1GQJ5W7wfv_i4ARKIYW7c0aV1KnIt2AVh/p/1RMVQLFuyCXoxI1UiTocWhxVn7UXWpavK/edit.
+
+or in Jupyter Notebook,
+
+~~~
+import gdown 
+google_path = 'https://drive.google.com/uc?id=' 
+file_id = '1VsgbtqBhVnCDpXgp9ydW53eBkfDRq7Tf' 
+output_name = 'drumdataset.egg' 
+gdown.download(google_path+file_id,output_name,quiet=False)
+~~~
