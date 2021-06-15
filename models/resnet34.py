@@ -37,7 +37,7 @@ class ResNet34(nn.Module):
     def __init__(self, block, layers, in_channel=4, num_classes=23):
         super(ResNet34, self).__init__()
         self.in_channels = 64
-        self.conv = conv7x7(4, 64)
+        self.conv = conv7x7(in_channel, 64)
         self.bn = nn.BatchNorm2d(64)
         self.relu = nn.ReLU(inplace=True)
         self.max_pool = nn.MaxPool2d(3, stride=2)
