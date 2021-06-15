@@ -33,7 +33,7 @@ data_overview.overview()
 
 Change input data type, presence or absence of augmentation, 5 networks.
 
-## Confusion matrix of EfficientNet-B0 + Aug + Mel-spectrogram
+## Confusion matrix of EfficientNet-B0 + Aug + Mel-spectrogram (TEST)
 
 <p align="center"><img src=https://user-images.githubusercontent.com/19663575/121989057-6bc99300-cdd6-11eb-8ffb-4bcfd5643039.png width="500" height="500"></>
 
