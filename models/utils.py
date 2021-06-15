@@ -614,3 +614,5 @@ def load_pretrained_weights(model, model_name, weights_path=None, load_fc=True, 
 
     if verbose:
         print('Loaded pretrained weights for {}'.format(model_name))
+
+      
