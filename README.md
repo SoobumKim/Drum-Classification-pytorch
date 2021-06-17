@@ -29,7 +29,7 @@ data_overview.overview()
 
 ## Ablation Test
 
-<img src=https://user-images.githubusercontent.com/19663575/121988568-894a2d00-cdd5-11eb-9982-bd800d01b997.png width="500" height="400"><img src=https://user-images.githubusercontent.com/19663575/122017243-c0800480-cdfc-11eb-9ff1-d57ffe3f9a7c.png width="300" height="200">
+<img src=https://user-images.githubusercontent.com/19663575/121988568-894a2d00-cdd5-11eb-9982-bd800d01b997.png width="500" height="400"><img src=https://user-images.githubusercontent.com/19663575/122314239-c25bdc00-cf52-11eb-84d3-a8034e239955.png width="300" height="200">
 
 Change input data type, presence or absence of augmentation, 5 networks.
 
