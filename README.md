@@ -31,7 +31,7 @@ data_overview.overview()
 
 <img src=https://user-images.githubusercontent.com/19663575/121988568-894a2d00-cdd5-11eb-9982-bd800d01b997.png width="500" height="400"><img src=https://user-images.githubusercontent.com/19663575/122314239-c25bdc00-cf52-11eb-84d3-a8034e239955.png width="300" height="200">
 
-Change input data type, presence or absence of augmentation, 5 networks.
+Change input data type (Waveform, Mel-spectrogram, Wavefrom + Mel-spectrogram), presence or absence of augmentation, 5 networks (VGG19, ResNet32, EfficientNetB0, B1, B2).
 
 ## Confusion matrix of EfficientNet-B0 + Aug + Mel-spectrogram (TEST)
 
