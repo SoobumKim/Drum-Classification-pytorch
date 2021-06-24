@@ -1,6 +1,9 @@
 # Drum-Classification-pytorch
-## Drum Robot
-
+## Drum Robot & Algorithm Overview
+<img src=https://user-images.githubusercontent.com/19663575/123232659-565e1280-d514-11eb-8619-d1d9fcd7a597.png width="800" height="400">
+  
+we propose 23 classes of dataset to classifynot only various drum components such as snare drum, bassdrum, two toms, hi-hat, two cymbals but also combinationof each other’s instruments.  Drum samples were extracteddirectly through sound and sheet music, and subsequentlythe number of generated dataset per class was almost equal-ized through increase data for less collected classes by us-ing signal processing for augmentation to prevent the classimbalance. Then, we classified drum sounds into an image-based model using the proposed dataset, which trained au-dio as input data converted into images. After converting toimages, we construct three types of input data on 1, 3, and4 channels and found the optimal performance of the newlyproposed dataset through ablation studies using a total offive CNN networks.  Later, we will construct a self-playingdrum robot like above figure which classify drum sounds with a selected net-work with superior performance. 
+  
 ## Drum Samples
 <p align="center"><img src=https://user-images.githubusercontent.com/19663575/121455748-f7f74700-c9df-11eb-9e77-37af6dabf36a.png width="600" height="300"></>
 
