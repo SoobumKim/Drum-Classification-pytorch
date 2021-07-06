@@ -3,7 +3,7 @@
 ## Drum Robot & Algorithm Overview
 <img src=https://user-images.githubusercontent.com/19663575/123232659-565e1280-d514-11eb-8619-d1d9fcd7a597.png width="900" height="400">
   
-we propose a dataset containing both various drum sounds and multiple drum sounds combined (called the KIST-Drum database1). We extracted 187.5 ms length drum samples from music played only drums and converted them into images. It obtained 28,992 images and increased them to 63,735 images through augmentation. The 23 drum classes corresponding to each image were annotated by file name. To apply a model suitable for the performing robot system, five convolutional neural networks were used and ablation studies were performed by changing the type of input image and the presence of augmented images in the training set.
+We propose a dataset containing both various drum sounds and multiple drum sounds combined (called the KIST-Drum database1). We extracted 187.5 ms length drum samples from music played only drums and converted them into images. It obtained 28,992 images and increased them to 63,735 images through augmentation. The 23 drum classes corresponding to each image were annotated by file name. To apply a model suitable for the performing robot system, five convolutional neural networks were used and ablation studies were performed by changing the type of input image and the presence of augmented images in the training set.
   
 ## KIST-DRUM Dataset
 <p align="center"><img src=https://user-images.githubusercontent.com/19663575/123533755-f0ab9980-d752-11eb-85e3-9d47da0007b9.png width="800" height="400"></>
