@@ -1,5 +1,4 @@
 # Drum-Classification-pytorch
-<a href="https://sandbox.zenodo.org/badge/latestdoi/375533694"><img src="https://sandbox.zenodo.org/badge/375533694.svg" alt="DOI"></a>
 ## Drum Robot & Algorithm Overview
 <img src=https://user-images.githubusercontent.com/19663575/123232659-565e1280-d514-11eb-8619-d1d9fcd7a597.png width="900" height="400">
   
