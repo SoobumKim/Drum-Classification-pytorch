@@ -53,7 +53,10 @@ class DrumDataset_test(Dataset): #dtype = 'tmel', 'time', 'mel
     def label_config(self,path_name):
         data_name = path_name.split('_')
         label_n = data_name[-1][:-4]
-        label = self.labels.index(label_n)
+        if label_n == '':
+            label = 'X'
+        else:
+            label = self.labels.index(label_n)
         return label
         
     def __len__(self):
