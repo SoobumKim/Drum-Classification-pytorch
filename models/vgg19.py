@@ -93,4 +93,4 @@ class VGG19(nn.Module):
         x = self.avg_pool(x)
         x = x.view(x.size(0), -1)
         x = self.classifier(x)
-        return x
+        return x 
